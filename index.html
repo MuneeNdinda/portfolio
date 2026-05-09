@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Faith's Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js"></script>
+  </head>
+  <body>
+
+    <!-- HEADER / NAV -->
+    <header>
+      <h1>Faith</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+      <h2>Hi, I'm Faith 👋</h2>
+      <p>Aspiring Web Developer | Building my future one line of code at a time.</p>
+      <button onclick="showMessage()">Say Hello to Me</button>
+      <p id="heroMessage"></p>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a passionate beginner web developer based in Nairobi. 
+      I started learning HTML, CSS and JavaScript and I'm on a mission 
+      to build beautiful websites and one day create my own portfolio for the world to see.</p>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Flexbox</div>
+        <div class="skill-card">DOM</div>
+        <div class="skill-card">Responsive Design</div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-card">
+        <h3>Faith's World Website</h3>
+        <p>My first ever website built with HTML, CSS and JavaScript. 
+        Features interactive buttons, DOM manipulation, and a beautiful layout.</p>
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Want to work together or just say hi? Fill in below!</p>
+      <input type="text" id="visitorName" placeholder="Your name">
+      <button onclick="sendMessage()">Send Message</button>
+      <p id="contactReply"></p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>Designed & Built by Faith © 2026 🌸</p>
+    </footer>
+
+    <script src="portfolio.js"></script>
+  </body>
+</html>
