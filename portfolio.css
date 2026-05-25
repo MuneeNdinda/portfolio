@@ -223,3 +223,75 @@ footer {
 html {
   scroll-behavior: smooth;
 }
+
+/* ================================
+   RESPONSIVE DESIGN — MOBILE
+================================ */
+
+@media (max-width: 768px) {
+
+  /* HEADER — stack name and nav vertically */
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px 20px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  nav a {
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+  /* HERO — smaller text on mobile */
+  #hero {
+    padding: 50px 20px;
+  }
+
+  #hero h2 {
+    font-size: 32px;
+  }
+
+  #hero p {
+    font-size: 16px;
+  }
+
+  /* SKILLS — wrap into 2 columns on mobile */
+  .skills-grid {
+    justify-content: center;
+  }
+
+  .skill-card {
+    font-size: 13px;
+    padding: 10px 18px;
+  }
+
+  /* SECTIONS — less side padding on mobile */
+  section {
+    margin: 40px auto;
+    padding: 0 16px;
+  }
+
+  /* CONTACT — input full width on mobile */
+  #contact input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #contact button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  /* PROJECT CARD */
+  .project-card {
+    padding: 16px;
+  }
+
+}
